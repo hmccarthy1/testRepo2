@@ -27,7 +27,7 @@ const runTests = async function () {
     firstName: "Hunter",
     lastName: "McCarthy",
     DOB: 1996 / 03 / 30,
-    emailAddress: "aaaa@hotmail.com",
+    emailAddress: "aaaaaaaaaa@hotmail.com",
     userPassword: "123456789",
     phoneNumber: '321-210-9676'
   });
@@ -35,7 +35,7 @@ const runTests = async function () {
 
   var ginnieSprings = await Spring.create({
 
-    springName: "Ginnie Spring",
+    springName: "Ginnie Springs.",
     latitude: 29.8343,
     longitude: 82.7024,
     springState: "FL",
