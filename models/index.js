@@ -171,44 +171,44 @@ const runTests = async function () {
 
   var ginnieMain = await springMedia.create({
     Spring: ginnieSprings.springID,
-    mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681441564/ginnieMain_vsq9ht.jpg", 
+    mediaURL: "", 
     Caption: `A stunning picture of one of ginnie's famous cave systems`, 
     mainImage: true
 
-  });
+  // });
 
-  await springMedia.create({
-    Spring: ginnieSprings.springID,
-    mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681442015/Devils-Ear-Backlight-3-1000x670_afrmpz.jpg", 
-    Caption: "Two cave divers marveling at the underwater rock formations at Ginnie", 
-    mainImage: false
+  // await springMedia.create({
+  //   Spring: ginnieSprings.springID,
+  //   mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681442015/Devils-Ear-Backlight-3-1000x670_afrmpz.jpg", 
+  //   Caption: "Two cave divers marveling at the underwater rock formations at Ginnie", 
+  //   mainImage: false
 
-  });
+  // });
 
-  await springMedia.create({
-    Spring: ginnieSprings.springID,
-    mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681442237/WhatLiesBeneath-1_ssjrfe.jpg", 
-    Caption: "Devil's Ear - the famous crevass of the Devil's spring system", 
-    mainImage: false
+  // await springMedia.create({
+  //   Spring: ginnieSprings.springID,
+  //   mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681442237/WhatLiesBeneath-1_ssjrfe.jpg", 
+  //   Caption: "Devil's Ear - the famous crevass of the Devil's spring system", 
+  //   mainImage: false
 
-  });
+  // });
 
 
-  await springMedia.create({
-    Spring: ginnieSprings.springID,
-    mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681442407/DevilsEyeNight-1_p0jvnq.jpg", 
-    Caption: "Even night time at Ginnie is stunning", 
-    mainImage: false
+  // await springMedia.create({
+  //   Spring: ginnieSprings.springID,
+  //   mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681442407/DevilsEyeNight-1_p0jvnq.jpg", 
+  //   Caption: "Even night time at Ginnie is stunning", 
+  //   mainImage: false
 
-  });
+  // });
 
-  await springMedia.create({
-    Spring: ginnieSprings.springID,
-    mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681442631/GOPR0011_ALTA-615917329403256048_vl3xjc.jpg", 
-    Caption: "Hunter freediving at the head spring at Ginnie", 
-    mainImage: false
+  // await springMedia.create({
+  //   Spring: ginnieSprings.springID,
+  //   mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681442631/GOPR0011_ALTA-615917329403256048_vl3xjc.jpg", 
+  //   Caption: "Hunter freediving at the head spring at Ginnie", 
+  //   mainImage: false
 
-  });
+  // });
 
 const ginnieReview1 = await springReview.create({
   Spring: 1,
