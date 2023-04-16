@@ -175,7 +175,7 @@ const runTests = async function () {
     Caption: `A stunning picture of one of ginnie's famous cave systems`, 
     mainImage: true
 
-  // });
+  });
 
   // await springMedia.create({
   //   Spring: ginnieSprings.springID,
