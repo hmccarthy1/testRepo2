@@ -27,7 +27,7 @@ const runTests = async function () {
     firstName: "Hunter",
     lastName: "McCarthy",
     DOB: 1996 / 03 / 30,
-    emailAddress: "aaaaaaaaaa@hotmail.com",
+    emailAddress: "aaasfdadsffaaaaaaaa@hotmail.com",
     userPassword: "123456789",
     phoneNumber: '321-210-9676'
   });
@@ -35,7 +35,7 @@ const runTests = async function () {
 
   var ginnieSprings = await Spring.create({
 
-    springName: "Ginnie Springs.",
+    springName: "  .Ginnie Springs.",
     latitude: 29.8343,
     longitude: 82.7024,
     springState: "FL",
@@ -218,86 +218,86 @@ const reviewMedia1 = await reviewMedia.create({
 
 })
 
-  var blueMain = await springMedia.create({
-    Spring: blueSprings.springID,
-    mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681442901/Blue-Springs-State-Park_084e5789-a552-d6e7-6866fc9f12ece6b1_fwc7qw.jpg", 
-    Caption: "A group of manatees swimming through blue springs", 
-    mainImage: true
+  // var blueMain = await springMedia.create({
+  //   Spring: blueSprings.springID,
+  //   mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681442901/Blue-Springs-State-Park_084e5789-a552-d6e7-6866fc9f12ece6b1_fwc7qw.jpg", 
+  //   Caption: "A group of manatees swimming through blue springs", 
+  //   mainImage: true
 
-  });
+  // });
   
-  var silverGlenMain = await springMedia.create({
-    Spring: silverGlenSprings.springID,
-    mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681443092/8696137743_530350a358_b_xtdprv.jpg", 
-    Caption: "A rare sight - a spiral swarm of striped bass at the restricted breeding grounds at Silver Glen Springs", 
-    mainImage: true
+  // var silverGlenMain = await springMedia.create({
+  //   Spring: silverGlenSprings.springID,
+  //   mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681443092/8696137743_530350a358_b_xtdprv.jpg", 
+  //   Caption: "A rare sight - a spiral swarm of striped bass at the restricted breeding grounds at Silver Glen Springs", 
+  //   mainImage: true
 
-  });
+  // });
 
-  var silverMain = await springMedia.create({
-    Spring: silverSprings.springID,
-    mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681357788/asvw2lazqjheytajiyuq.jpg", 
-    Caption: "A relaxing view from a viewing deck alongside the river hosting Silver Springs", 
-    mainImage: true
+  // var silverMain = await springMedia.create({
+  //   Spring: silverSprings.springID,
+  //   mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681357788/asvw2lazqjheytajiyuq.jpg", 
+  //   Caption: "A relaxing view from a viewing deck alongside the river hosting Silver Springs", 
+  //   mainImage: true
 
-  });
+  // });
 
-  var alexanderMain = await springMedia.create({
-    Spring: alexanderSprings.springID,
-    mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681443378/diving-down-into-alexander-springs-1024x577_x5uwvo.jpg", 
-    Caption: "Alexander is deceptively deep and spacious!", 
-    mainImage: true
+  // var alexanderMain = await springMedia.create({
+  //   Spring: alexanderSprings.springID,
+  //   mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681443378/diving-down-into-alexander-springs-1024x577_x5uwvo.jpg", 
+  //   Caption: "Alexander is deceptively deep and spacious!", 
+  //   mainImage: true
 
-  });
+  // });
 
-  var devilsDenMain = await springMedia.create({
-    Spring: devilsDenSpring.springID,
-    mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681443580/7e17e2e44eb5c913e2c585bc05ad0145_ba4i5k.jpg", 
-    Caption: "The entrance to Devil's Den, one of florida's oldest and coolest springs", 
-    mainImage: true
+  // var devilsDenMain = await springMedia.create({
+  //   Spring: devilsDenSpring.springID,
+  //   mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681443580/7e17e2e44eb5c913e2c585bc05ad0145_ba4i5k.jpg", 
+  //   Caption: "The entrance to Devil's Den, one of florida's oldest and coolest springs", 
+  //   mainImage: true
 
-  });
-  var ichetuckneeMain = await springMedia.create({
-    Spring: ichetuckneeSprings.springID,
-    mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681443785/ichetucknee-blue_hole_springs-16_rvxlww.jpg", 
-    Caption: "The entrance to the Ichetucknee head spring, next to a path leading to Blue Hole", 
-    mainImage: true
-  });
+  // });
+  // var ichetuckneeMain = await springMedia.create({
+  //   Spring: ichetuckneeSprings.springID,
+  //   mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681443785/ichetucknee-blue_hole_springs-16_rvxlww.jpg", 
+  //   Caption: "The entrance to the Ichetucknee head spring, next to a path leading to Blue Hole", 
+  //   mainImage: true
+  // });
 
-  var royalMain = await springMedia.create({
-    Spring: royalSprings.springID,
-    mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681443981/Royal-Springs-2_nmrzbn.jpg", 
-    Caption: "View of the great dock for diving headfirst into Royal Springs", 
-    mainImage: true
-  });
+  // var royalMain = await springMedia.create({
+  //   Spring: royalSprings.springID,
+  //   mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681443981/Royal-Springs-2_nmrzbn.jpg", 
+  //   Caption: "View of the great dock for diving headfirst into Royal Springs", 
+  //   mainImage: true
+  // });
 
-  var juniperMain = await springMedia.create({
-    Spring: juniperSprings.springID,
-    mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681444178/juniper-springs-rick-lee_gi1hri.jpg", 
-    Caption: "A beautiful stretch of the famous Juniper Run", 
-    mainImage: true
-  });
+  // var juniperMain = await springMedia.create({
+  //   Spring: juniperSprings.springID,
+  //   mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681444178/juniper-springs-rick-lee_gi1hri.jpg", 
+  //   Caption: "A beautiful stretch of the famous Juniper Run", 
+  //   mainImage: true
+  // });
 
-  var rainbowMain = await springMedia.create({
-    Spring: rainbowSprings.springID,
-    mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681444319/rainbowsprings_1-854x900_t7fvwx.jpg", 
-    Caption: "Clear? Crystal.", 
-    mainImage: true
-  });
+  // var rainbowMain = await springMedia.create({
+  //   Spring: rainbowSprings.springID,
+  //   mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681444319/rainbowsprings_1-854x900_t7fvwx.jpg", 
+  //   Caption: "Clear? Crystal.", 
+  //   mainImage: true
+  // });
 
-  var rockMain = await springMedia.create({
-    Spring: rockSprings.springID,
-    mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681444510/rock-spring-swim_rvvojz.jpg", 
-    Caption: "Buckle up - that current's strong", 
-    mainImage: true
-  });
+  // var rockMain = await springMedia.create({
+  //   Spring: rockSprings.springID,
+  //   mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681444510/rock-spring-swim_rvvojz.jpg", 
+  //   Caption: "Buckle up - that current's strong", 
+  //   mainImage: true
+  // });
 
-  var gumSloughMain = await springMedia.create({
-    Spring: gumSloughSprings.springID,
-    mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681444694/F14BF4F7-B718-473B-8133-B82241FB2BF8_ky2v55.jpg", 
-    Caption: "Beautiful cut of the canoe/kayak run leading up to Gum Slough", 
-    mainImage: true
-  });
+  // var gumSloughMain = await springMedia.create({
+  //   Spring: gumSloughSprings.springID,
+  //   mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681444694/F14BF4F7-B718-473B-8133-B82241FB2BF8_ky2v55.jpg", 
+  //   Caption: "Beautiful cut of the canoe/kayak run leading up to Gum Slough", 
+  //   mainImage: true
+  // });
 
   var kayaking = await amenityChoice.create({
     amenityType: "Kayaking",
@@ -349,14 +349,14 @@ const reviewMedia1 = await reviewMedia.create({
   amenityTitle: "Ginnie Springs Diving"
   });
 
-  var testDiving = await Amenity.create({
-    Spring: 3,
-    amenityType: Diving.amenityChoiceID,
-    amenityDescription: "Ftest",
-    Cost: "How much this endeavor will cost depends on what you want to do, and if you're bringing your own gear. Cave diver admission is 24 USD, normal divers get in for 32 USD, and an annual diving pass will cost you 399.99 USD. Rentals will vary but will not be cheap",
-    amenityRating: 9.3,
-    amenityTitle: "test"
-    });
+  // var testDiving = await Amenity.create({
+  //   Spring: 3,
+  //   amenityType: Diving.amenityChoiceID,
+  //   amenityDescription: "Ftest",
+  //   Cost: "How much this endeavor will cost depends on what you want to do, and if you're bringing your own gear. Cave diver admission is 24 USD, normal divers get in for 32 USD, and an annual diving pass will cost you 399.99 USD. Rentals will vary but will not be cheap",
+  //   amenityRating: 9.3,
+  //   amenityTitle: "test"
+  //   });
 
   var ginnieDivingMain = await amenityMedia.create({
     mediaURL: "https://res.cloudinary.com/dsvmviwkc/image/upload/v1681474222/ginnie11_twmyca.jpg",
