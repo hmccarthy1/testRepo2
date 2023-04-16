@@ -1,0 +1,24 @@
+[
+    {
+      "firstName": "Gina",
+      "lastName": "Davis",
+      "DOB": "1990-04-26",
+      "emailAddress": "gina@gmail.com",
+      "userPassword": "password123"
+    },
+    {
+        "firstName": "Bryan",
+        "lastName": "Davis",
+        "DOB": "1989-04-26",
+        "emailAddress": "bryan@gmail.com",
+        "userPassword": "password123"
+    },
+    {
+        "firstName": "Diego",
+        "lastName": "Vera",
+        "DOB": "1991-04-26",
+        "emailAddress": "diego@gmail.com",
+        "userPassword": "password123"
+    }
+  ]
+  
