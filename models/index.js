@@ -35,7 +35,7 @@ const runTests = async function () {
 
   var ginnieSprings = await Spring.create({
 
-    springName: "Ginnie Springs",
+    springName: "Ginnie Spring",
     latitude: 29.8343,
     longitude: 82.7024,
     springState: "FL",
@@ -44,123 +44,123 @@ const runTests = async function () {
 
   });
 
-  var blueSprings = await Spring.create({
+  // var blueSprings = await Spring.create({
 
-    springName: "Blue Springs (Volusia)",
-    latitude: 28.9514,
-    longitude: 81.3337,
-    springState: "FL",
-    County: "Volusia",
-    springDescription: "Famous for the manatees that inhabit it during the winter months and the exceptional freediving opportunities it offers, this oasis is located about 45 minutes north of Orlando. This spring boasts about a half mile of crystal clear stream, leading to the 40' deep head spring that attracts freedivers from all over the state"
+  //   springName: "Blue Springs (Volusia)",
+  //   latitude: 28.9514,
+  //   longitude: 81.3337,
+  //   springState: "FL",
+  //   County: "Volusia",
+  //   springDescription: "Famous for the manatees that inhabit it during the winter months and the exceptional freediving opportunities it offers, this oasis is located about 45 minutes north of Orlando. This spring boasts about a half mile of crystal clear stream, leading to the 40' deep head spring that attracts freedivers from all over the state"
 
-  });
+  // });
 
-  var silverGlenSprings = await Spring.create({
+  // var silverGlenSprings = await Spring.create({
 
-    springName: "Silver Glen Springs",
-    latitude: 29.2464,
-    longitude: 81.6434,
-    springState: "Fl",
-    County: "Marion",
-    springDescription: "This spring plays hosts to swirling schools of silver striped bass and swaying seagrass. The 72 degree waters of this spring are located about an hour and fifteen minutes north from Orlando, nestled in the Ocala national forest."
+  //   springName: "Silver Glen Springs",
+  //   latitude: 29.2464,
+  //   longitude: 81.6434,
+  //   springState: "Fl",
+  //   County: "Marion",
+  //   springDescription: "This spring plays hosts to swirling schools of silver striped bass and swaying seagrass. The 72 degree waters of this spring are located about an hour and fifteen minutes north from Orlando, nestled in the Ocala national forest."
 
-  });
+  // });
 
-  var silverSprings = await Spring.create({
+  // var silverSprings = await Spring.create({
 
-    springName: "Silver Springs",
-    latitude: 39.41547,
-    longitude: -119.22461,
-    springState: "FL",
-    County: "Marion",
-    springDescription: "From monkeys to moviestars, this spring has seen it's share of crazy characters. Bought by ABC-Paramount in 1962, this spring was the set of several movies, including 'Tarzan' and 'The Creature from the Black Lagoon'. Silver Springs also does contain an island of wild Rheesus monkeys, but don't get too close - you won't go home smelling nice!"
+  //   springName: "Silver Springs",
+  //   latitude: 39.41547,
+  //   longitude: -119.22461,
+  //   springState: "FL",
+  //   County: "Marion",
+  //   springDescription: "From monkeys to moviestars, this spring has seen it's share of crazy characters. Bought by ABC-Paramount in 1962, this spring was the set of several movies, including 'Tarzan' and 'The Creature from the Black Lagoon'. Silver Springs also does contain an island of wild Rheesus monkeys, but don't get too close - you won't go home smelling nice!"
 
-  });
+  // });
 
-  var alexanderSprings = await Spring.create({
+  // var alexanderSprings = await Spring.create({
 
-    springName: "Alexander Springs",
-    latitude: 29.0803,
-    longitude: 81.5781,
-    springState: "FL",
-    County: "Lake",
-    springDescription: "Home to some of the most gorgeous freediving and snorkeling in the state, this spring is often used by novice divers to practice their buoyancy control. With a nice spacious head spring side-by-side shallow waters, this is a great spot for a family weekend getaway."
+  //   springName: "Alexander Springs",
+  //   latitude: 29.0803,
+  //   longitude: 81.5781,
+  //   springState: "FL",
+  //   County: "Lake",
+  //   springDescription: "Home to some of the most gorgeous freediving and snorkeling in the state, this spring is often used by novice divers to practice their buoyancy control. With a nice spacious head spring side-by-side shallow waters, this is a great spot for a family weekend getaway."
 
-  });
+  // });
 
-  var devilsDenSpring = await Spring.create({
+  // var devilsDenSpring = await Spring.create({
 
-    springName: "Devil's Den Prehistoric Spring",
-    latitude: 29.4070,
-    longitude: 82.4761,
-    springState: "FL",
-    County: "Levy",
-    springDescription: "Truly one of Florida's natural wonders, this spring in nested inside a rock canyon with strands of sunlight streaming through the natural formation, creating a mid-day halo effect. This spring is a bucket-list item for many cave divers hoping to explore the pre-historic underwater cave system. Right next door is one of the most diverse gardens in the state of florida"
+  //   springName: "Devil's Den Prehistoric Spring",
+  //   latitude: 29.4070,
+  //   longitude: 82.4761,
+  //   springState: "FL",
+  //   County: "Levy",
+  //   springDescription: "Truly one of Florida's natural wonders, this spring in nested inside a rock canyon with strands of sunlight streaming through the natural formation, creating a mid-day halo effect. This spring is a bucket-list item for many cave divers hoping to explore the pre-historic underwater cave system. Right next door is one of the most diverse gardens in the state of florida"
 
-  });
+  // });
 
-  var ichetuckneeSprings = await Spring.create({
+  // var ichetuckneeSprings = await Spring.create({
 
-    springName: "Ichetucknee Springs",
-    latitude: 29.9838,
-    longitude: 82.7618,
-    springState: "FL",
-    County: "Suwanee",
-    springDescription: "Whether you want to take a leisurely tube down a natural lazy river, or be awed by the size the underwater cavern at Blue Hole, this site has you covered. Right in the heartland of Florida spring territory, this site is only a half hour north of Ginnie Springs, just outside Alachua"
+  //   springName: "Ichetucknee Springs",
+  //   latitude: 29.9838,
+  //   longitude: 82.7618,
+  //   springState: "FL",
+  //   County: "Suwanee",
+  //   springDescription: "Whether you want to take a leisurely tube down a natural lazy river, or be awed by the size the underwater cavern at Blue Hole, this site has you covered. Right in the heartland of Florida spring territory, this site is only a half hour north of Ginnie Springs, just outside Alachua"
 
-  });
+  // });
 
-  var royalSprings = await Spring.create({
+  // var royalSprings = await Spring.create({
 
-    springName: "Royal Springs",
-    latitude: 30.0838,
-    longitude: 83.0749,
-    springState: "FL",
-    County: "Suwanee",
-    springDescription: "This spring is not well-known, which makes it the perfect getaway for those who want to avoid those pesky summer tourists and snowbirds. This spring may not have the same wildlife or attractions that others have, but it has a great dock to dive off and plenty of space to swim around. One of the deepest and widest springs around, this is a great option for those wishing to practice diving of any kind"
+  //   springName: "Royal Springs",
+  //   latitude: 30.0838,
+  //   longitude: 83.0749,
+  //   springState: "FL",
+  //   County: "Suwanee",
+  //   springDescription: "This spring is not well-known, which makes it the perfect getaway for those who want to avoid those pesky summer tourists and snowbirds. This spring may not have the same wildlife or attractions that others have, but it has a great dock to dive off and plenty of space to swim around. One of the deepest and widest springs around, this is a great option for those wishing to practice diving of any kind"
 
-  });
+  // });
 
-  var juniperSprings = await Spring.create({
+  // var juniperSprings = await Spring.create({
 
-    springName: "Juniper Springs",
-    latitude: 29.1839,
-    longitude: 81.7120,
-    springState: "FL",
-    County: "Marion",
-    springDescription: "Kayakers - this one's for you. The Juniper Run was named one of the top 25 canoe runs in the country by ReserveAmerica. It's a seven mile journey, so come prepared - but many people who experience the breathtaking journey down this run ended up wishing it was even longer!"
+  //   springName: "Juniper Springs",
+  //   latitude: 29.1839,
+  //   longitude: 81.7120,
+  //   springState: "FL",
+  //   County: "Marion",
+  //   springDescription: "Kayakers - this one's for you. The Juniper Run was named one of the top 25 canoe runs in the country by ReserveAmerica. It's a seven mile journey, so come prepared - but many people who experience the breathtaking journey down this run ended up wishing it was even longer!"
 
-  });
+  // });
 
-  var rainbowSprings = await Spring.create({
-    springName: "Rainbow Springs",
-    latitude: 29.1025,
-    longitude: 82.4370,
-    springState: "FL",
-    County: "Marion",
-    springDescription: "You don't get a name like rainbow springs without looking pretty. Home to arguably the clearest water in the state, this spring is famous for it's glass-bottomed kayak tours, showcasing just how clear it really is. Paddle along rainbow river and watch the fish and manatees swim right beneath you!"
+  // var rainbowSprings = await Spring.create({
+  //   springName: "Rainbow Springs",
+  //   latitude: 29.1025,
+  //   longitude: 82.4370,
+  //   springState: "FL",
+  //   County: "Marion",
+  //   springDescription: "You don't get a name like rainbow springs without looking pretty. Home to arguably the clearest water in the state, this spring is famous for it's glass-bottomed kayak tours, showcasing just how clear it really is. Paddle along rainbow river and watch the fish and manatees swim right beneath you!"
 
-  });
+  // });
 
-  var rockSprings = await Spring.create({
-    springName: "Kelly Park / Rock Springs",
-    latitude: 28.7591,
-    longitude: 81.5004,
-    springState: "FL",
-    County: "Marion",
-    springDescription: "A disproportionately strong current, ample sunbathing area, and the tempting lure of finding your very own prehistoric shark teeth - it's no wonder this spring is crowded every weekend. Make sure you come early to ensure you get the opportunity to enjoy it! "
+  // var rockSprings = await Spring.create({
+  //   springName: "Kelly Park / Rock Springs",
+  //   latitude: 28.7591,
+  //   longitude: 81.5004,
+  //   springState: "FL",
+  //   County: "Marion",
+  //   springDescription: "A disproportionately strong current, ample sunbathing area, and the tempting lure of finding your very own prehistoric shark teeth - it's no wonder this spring is crowded every weekend. Make sure you come early to ensure you get the opportunity to enjoy it! "
 
-  });
+  // });
 
 
-  var gumSloughSprings = await Spring.create({
-    springName: "Gum Slough Spring",
-    latitude: 28.958722,
-    longitude: 82.231528,
-    springState: "FL",
-    County: "Marion",
-    springDescription: "One of the hidden gems of Florida Springs, this spring is both one of the best and one of the hardest to get to. The spring is miles upriver, and you'll probably need to get out of your kayak once or twice to navigate, but those who make it all the way to the head spring are rewarded with one of the most secluded springs in florida. You won't see throngs of tourists with bluetooth speakers here. For those who love to freedive and snorkel, this spring is one of the best"
-  })
+  // var gumSloughSprings = await Spring.create({
+  //   springName: "Gum Slough Spring",
+  //   latitude: 28.958722,
+  //   longitude: 82.231528,
+  //   springState: "FL",
+  //   County: "Marion",
+  //   springDescription: "One of the hidden gems of Florida Springs, this spring is both one of the best and one of the hardest to get to. The spring is miles upriver, and you'll probably need to get out of your kayak once or twice to navigate, but those who make it all the way to the head spring are rewarded with one of the most secluded springs in florida. You won't see throngs of tourists with bluetooth speakers here. For those who love to freedive and snorkel, this spring is one of the best"
+  // })
 
   var ginnieMain = await springMedia.create({
     Spring: ginnieSprings.springID,
