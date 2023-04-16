@@ -27,7 +27,7 @@ const runTests = async function () {
     firstName: "Hunter",
     lastName: "McCarthy",
     DOB: 1996 / 03 / 30,
-    emailAddress: "hunterMcCarasdfasfthy56@hotmail.com",
+    emailAddress: "aaaa@hotmail.com",
     userPassword: "123456789",
     phoneNumber: '321-210-9676'
   });
